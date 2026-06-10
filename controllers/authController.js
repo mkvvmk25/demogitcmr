@@ -82,7 +82,7 @@ module.exports.signup2 = async (req, res, next) => {
 		]);
 		dbuser = dbuser[0];
 		if (dbuser.length > 0) {
-			throw new Error("there exist user");
+			throw new Error("there exist user ytfytff1234578");
 		}
 
 		// hash pass
