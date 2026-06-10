@@ -20,7 +20,7 @@ app.use("/auth", authRouter);
 
 app.use((err, req, res, next) => {
 	res.status(500).json({
-		status: "fail from Global error handler",
+		status: "fail from Global error handler updates",
 		msg: err.message,
 	});
 });

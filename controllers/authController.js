@@ -25,7 +25,7 @@ module.exports.login = async (req, res, next) => {
 			},
 		);
 		res.json({
-			status: "success",
+			status: "success deva update",
 			token: token,
 		});
 
